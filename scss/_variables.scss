@@ -1,0 +1,31 @@
+@font-face {
+	font-family: "Stolzl";
+	font-weight: 300;
+	src: url("../fonts/stolzl-light.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Stolzl";
+	font-weight: 400;
+	src: url("../fonts/stolzl-regular.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Stolzl";
+	font-weight: 500;
+	src: url("../fonts/stolzl-medium.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Stolzl";
+	font-weight: 700;
+	src: url("../fonts/stolzl-bold.woff2") format("woff2");
+}
+
+:root {
+	--font-family-main: "Stolzl", sans-serif;
+	--color-light: #fff;
+	--color-dark: #2d3132;
+	--color-grey: #eff1f1;
+	--color-dark-grey: #747778;
+}
