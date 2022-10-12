@@ -26,6 +26,10 @@
   --color-dark-grey: #747778;
 }
 
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 html {
   font-family: var(--font-family-main);
   scrollbar-width: thin;
