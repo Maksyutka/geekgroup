@@ -13,10 +13,12 @@ function accordeonInit() {
 function mobileMenuInit() {
 	$(".catalog__filters").click(function () {
 		$(".catalog__side").addClass("active");
+		$("html").addClass("overflowed");
 	});
 
 	$(".catalog__side-close").click(function () {
 		$(".catalog__side").removeClass("active");
+		$("html").removeClass("overflowed");
 	});
 }
 

@@ -35,6 +35,9 @@ html {
   scrollbar-width: thin;
   scrollbar-color: #c7c7c7 #e0e0e0;
 }
+html.overflowed {
+  overflow: hidden;
+}
 
 body::-webkit-scrollbar {
   width: 9px;
@@ -1030,7 +1033,9 @@ body::-webkit-scrollbar-thumb {
   .catalog__side {
     position: fixed;
     width: 100%;
-    height: 100vh;
+    height: 100%;
+    overflow-y: auto;
+    min-height: 100vh;
     background-color: var(--color-light);
     padding: 15px;
     top: 0;
